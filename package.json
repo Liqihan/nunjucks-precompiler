@@ -1,0 +1,23 @@
+{
+  "name": "nunjucks-pre",
+  "version": "1.0.0",
+  "description": "nunjuck编译成js，支持传入参数",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./bin/nunjucks-precompiler.js",
+  "dependencies": {
+    "argparse": "^1.0.7",
+    "extend": "^3.0.0",
+    "js-beautify": "^1.6.4",
+    "lodash": "^4.16.4",
+    "nodeproxy": "^1.0.0",
+    "nunjucks": "^3.0.0",
+    "slash": "^1.0.0",
+    "uglify-js": "^2.7.4",
+    "underscore.string": "git+ssh://git@gitlab.benditoutiao.com:npm-contributes/underscore.string.git"
+  },
+  "author": "liqihan@benditoutiao.com",
+  "license": "ISC"
+}
